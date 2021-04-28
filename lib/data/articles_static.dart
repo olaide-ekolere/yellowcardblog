@@ -6,15 +6,22 @@ import 'package:yellowcardblog/models/article.dart';
 
 class ArticlesStatic extends ArticlesDataSource {
   @override
-  Future<List<Article>> getArtciles() async {
+  Future<List<Article>> getArticles(String? categoryId) async {
     List<Article> articles = await _loadArticlesFromJson();
+    if (categoryId != null) {
+      articles = articles
+          .where((element) => element.categoryId == categoryId)
+          .toList();
+    }
     return articles;
   }
 
   @override
   Future<Article> getArticleById(String id) async {
-    // TODO: implement getArticleById
-    throw UnimplementedError();
+    List<Article> articles = await _loadArticlesFromJson();
+    return articles.firstWhere(
+      (element) => element.id == id,
+    );
   }
 
   Future<List<Article>> _loadArticlesFromJson() async {
