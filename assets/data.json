@@ -1,0 +1,146 @@
+{
+    "categories" : [
+        {
+            "id" : "1001",
+            "name" : "Crypto Scoop"
+        },
+        {
+            "id" : "1002",
+            "name" : "Insights"
+        },
+        {
+            "id" : "1003",
+            "name" : "Updates"
+        }
+    ],
+    "articles" : [
+        {
+            "id" : "100001",
+            "title" : "How To Store Your Crypto With Yellow Card",
+            "text" : "Storing your Crypto asset is the first thing to consider when purchasing any Cryptocurrency asset of your choice. Consider going to the bank to deposit money without having a bank account. The same goes for crypto assets. For you to be able to store your Cryptocurrency asset, you need a wallet. A wallet replaces a bank for digital assets. It enables users to be their bank by being a protective custodian of their crypto assets.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/8b591b45-b06d-4dde-a31a-0b3e8eeb42ff_Wallet.jpg",
+            "publishDate" : "",
+            "categoryId" : "1003"
+        },
+        {
+            "id" : "100002",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : "1001"
+        },
+        {
+            "id" : "100003",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100004",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : "1001"
+        },
+        {
+            "id" : "100005",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100006",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100007",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100008",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : "1001"
+        },
+        {
+            "id" : "100009",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100010",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100011",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100012",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100013",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100014",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100015",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : ""
+        },
+        {
+            "id" : "100016",
+            "title" : "",
+            "text" : "",
+            "imageUrl" : "",
+            "publishDate" : "",
+            "categoryId" : "1001"
+        }
+    ]
+}
