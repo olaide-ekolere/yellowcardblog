@@ -1,6 +1,10 @@
 {
     "categories" : [
         {
+            "id" : "0",
+            "name" : "All"
+        },
+        {
             "id" : "1001",
             "name" : "Crypto Scoop"
         },

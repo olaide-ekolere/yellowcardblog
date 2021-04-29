@@ -1,4 +1,4 @@
-class Category {
+class Category extends _Selectable {
   final String id;
   final String name;
   Category({
@@ -9,4 +9,8 @@ class Category {
   Category.fromMap(Map<String, dynamic> data)
       : this.id = data['id'],
         this.name = data['name'];
+}
+
+class _Selectable {
+  bool selected = false;
 }

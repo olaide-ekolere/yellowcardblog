@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yellowcardblog/data/articles_static.dart';
+import 'package:yellowcardblog/data/categories_static.dart';
+import 'package:yellowcardblog/screens/demo_screen.dart';
 
 void main() {
   runApp(MyApp());
@@ -10,7 +12,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'Yellowcard Blog',
       theme: ThemeData(
         // This is the theme of your application.
         //
@@ -23,7 +25,9 @@ class MyApp extends StatelessWidget {
         // is not restarted.
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(title: 'Flutter Demo Home Page'),
+      home: DemoScreen(
+        categoriesDataSource: CategoriesStatic(),
+      ),
     );
   }
 }
@@ -50,7 +54,7 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() async {
-    var list = await ArticlesStatic().getArtciles();
+    var list = await ArticlesStatic().getArticles("1003");
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below
