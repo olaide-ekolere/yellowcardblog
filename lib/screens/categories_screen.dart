@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:yellowcardblog/bloc/categoies_bloc.dart';
 import 'package:yellowcardblog/data/categories_datasource.dart';
 import 'package:yellowcardblog/widgets/categories_list_view.dart';
 
@@ -20,7 +21,7 @@ class _CategoriesScreenState extends State<CategoriesScreen> {
         ),
       ),
       body: CategoriesListView(
-        categoriesDataSource: widget.categoriesDataSource,
+        categoriesBloc: CategoriesBloc(widget.categoriesDataSource),
         categorySelected: _categorySelected,
       ),
     );

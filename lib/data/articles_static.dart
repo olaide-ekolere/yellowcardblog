@@ -8,7 +8,7 @@ class ArticlesStatic extends ArticlesDataSource {
   @override
   Future<List<Article>> getArticles(String? categoryId) async {
     List<Article> articles = await _loadArticlesFromJson();
-    if (categoryId != null) {
+    if (categoryId != null && categoryId != '0') {
       articles = articles
           .where((element) => element.categoryId == categoryId)
           .toList();

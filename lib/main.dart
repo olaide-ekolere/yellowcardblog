@@ -27,6 +27,7 @@ class MyApp extends StatelessWidget {
       ),
       home: DemoScreen(
         categoriesDataSource: CategoriesStatic(),
+        articlesDataSource: ArticlesStatic(),
       ),
     );
   }
@@ -54,7 +55,6 @@ class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
   void _incrementCounter() async {
-    var list = await ArticlesStatic().getArticles("1003");
     setState(() {
       // This call to setState tells the Flutter framework that something has
       // changed in this State, which causes it to rerun the build method below

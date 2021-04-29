@@ -1,15 +1,14 @@
 import 'package:flutter/material.dart';
 import 'package:yellowcardblog/bloc/categoies_bloc.dart';
-import 'package:yellowcardblog/data/categories_datasource.dart';
 import 'package:yellowcardblog/listitems/category_list_item.dart';
 import 'package:yellowcardblog/models/category.dart';
 import 'package:yellowcardblog/widgets/common/responsive_widget.dart';
 
 class CategoriesListView extends StatefulWidget {
-  final CategoriesDataSource categoriesDataSource;
+  final CategoriesBloc categoriesBloc;
   final Function(String) categorySelected;
   CategoriesListView({
-    required this.categoriesDataSource,
+    required this.categoriesBloc,
     required this.categorySelected,
   });
   createState() => _CategoriesListViewState();
@@ -20,9 +19,7 @@ class _CategoriesListViewState extends State<CategoriesListView> {
   @override
   void initState() {
     super.initState();
-    _categoriesBloc = CategoriesBloc(
-      widget.categoriesDataSource,
-    );
+    _categoriesBloc = widget.categoriesBloc;
     _categoriesBloc.fetchCategories();
   }
 

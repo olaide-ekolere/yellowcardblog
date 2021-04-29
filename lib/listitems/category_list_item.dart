@@ -14,12 +14,15 @@ class CategoryListItem extends StatelessWidget {
       onTap: () => categoryClicked(
         category.id,
       ),
-      child: ListTile(
-        leading: Icon(
-          Icons.menu_book,
-        ),
-        title: Text(
-          category.name,
+      child: Container(
+        color: category.selected ? Colors.yellow : Colors.white,
+        child: ListTile(
+          leading: Icon(
+            Icons.menu_book,
+          ),
+          title: Text(
+            category.name,
+          ),
         ),
       ),
     );
