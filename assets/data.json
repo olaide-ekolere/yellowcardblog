@@ -132,18 +132,18 @@
         },
         {
             "id" : "100015",
-            "title" : "",
-            "text" : "",
-            "imageUrl" : "",
-            "publishDate" : "",
-            "categoryId" : ""
+            "title" : "Introducing The New Yellow Card",
+            "text" : "We’ve got great news! After months of tireless work on the new Yellow Card platform- we are excited to announce that it’s finally ready. One of the main focuses of our team has always been to make sure you, our valued customer, find using our platform as easy as possible. And as requests were made about what features would be cool to have on Yellow Card, you can rest assured that we heard every one of those requests. The new Yellow Card platform has been painstakingly designed to make all your cryptocurrency transactions easier, more secure and faster. Here, we’ll walk you through everything new in the Yellow Card app",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/2ce9d208-7924-49b5-9401-febf0b3d5f93_version+release.jpeg",
+            "publishDate" : "2021-01-11",
+            "categoryId" : "1003"
         },
         {
             "id" : "100016",
-            "title" : "",
-            "text" : "",
-            "imageUrl" : "",
-            "publishDate" : "",
+            "title" : "Year In Retrospect: Bitcoin And Crypto Journey (2020)",
+            "text" : "It would be an understatement to say that 2020 has been a remarkable year for all crypto lovers and bitcoin hodlers. The year started on a good note and is ending on an even higher note! For us at Yellow Card, we’ve experienced massive growth all round - from the number of active customers to the volume of crypto transactions we processed to the countries we now operate in and even to the number of members on our team. It’s really been a very interesting year despite the many occurrences we all know so well. Looking back on the exciting ride 2020 has been and looking forward to a better 2021, here’s a rundown of the milestones we hit in the cryptocurrency world this year.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/30bdb31a-730f-4e5e-9fde-997e208eedca_crypto+2020+retrospect.jpeg",
+            "publishDate" : "2020-12-31",
             "categoryId" : "1001"
         }
     ]
