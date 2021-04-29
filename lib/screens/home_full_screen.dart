@@ -3,15 +3,18 @@ import 'package:yellowcardblog/bloc/articles_bloc.dart';
 import 'package:yellowcardblog/bloc/categoies_bloc.dart';
 import 'package:yellowcardblog/data/articles_datasource.dart';
 import 'package:yellowcardblog/data/categories_datasource.dart';
+import 'package:yellowcardblog/models/article.dart';
 import 'package:yellowcardblog/widgets/articles_grid_view.dart';
 import 'package:yellowcardblog/widgets/categories_list_view.dart';
 
 class HomeFullScreen extends StatefulWidget {
   final CategoriesDataSource categoriesDataSource;
   final ArticlesDataSource articlesDataSource;
+  final Function(Article) articleClicked;
   HomeFullScreen({
     required this.articlesDataSource,
     required this.categoriesDataSource,
+    required this.articleClicked,
   });
   createState() => _HomeFullScreenState();
 }
@@ -51,7 +54,7 @@ class _HomeFullScreenState extends State<HomeFullScreen> {
             flex: 2,
             child: ArticlesGridView(
               articlesBloc: _articlesBloc,
-              articleSelected: _articleSelected,
+              articleSelected: widget.articleClicked,
               categoryId: '0',
             ),
           ),
@@ -64,6 +67,4 @@ class _HomeFullScreenState extends State<HomeFullScreen> {
     _categoriesBloc.setSelected(categoryId);
     _articlesBloc.fetchArticles(categoryId);
   }
-
-  _articleSelected(String articleId) {}
 }

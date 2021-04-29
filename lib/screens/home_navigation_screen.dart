@@ -3,15 +3,18 @@ import 'package:yellowcardblog/bloc/articles_bloc.dart';
 import 'package:yellowcardblog/bloc/categoies_bloc.dart';
 import 'package:yellowcardblog/data/articles_datasource.dart';
 import 'package:yellowcardblog/data/categories_datasource.dart';
+import 'package:yellowcardblog/models/article.dart';
 import 'package:yellowcardblog/widgets/articles_grid_view.dart';
 import 'package:yellowcardblog/widgets/categories_list_view.dart';
 
 class HomeNavigationScreen extends StatefulWidget {
   final CategoriesDataSource categoriesDataSource;
   final ArticlesDataSource articlesDataSource;
+  final Function(Article) articleClicked;
   HomeNavigationScreen({
     required this.articlesDataSource,
     required this.categoriesDataSource,
+    required this.articleClicked,
   });
   createState() => _HomeNavigationScreenState();
 }
@@ -46,7 +49,7 @@ class _HomeNavigationScreenState extends State<HomeNavigationScreen> {
       ),
       body: ArticlesGridView(
         articlesBloc: _articlesBloc,
-        articleSelected: _articleSelected,
+        articleSelected: widget.articleClicked,
         categoryId: '0',
       ),
     );
@@ -57,6 +60,4 @@ class _HomeNavigationScreenState extends State<HomeNavigationScreen> {
     _articlesBloc.fetchArticles(categoryId);
     Navigator.of(context).pop(); //close drawer
   }
-
-  _articleSelected(String articleId) {}
 }

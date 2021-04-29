@@ -3,7 +3,7 @@ import 'package:yellowcardblog/models/article.dart';
 
 class ArticleListItem extends StatelessWidget {
   final Article article;
-  final Function(String) articleClicked;
+  final Function(Article) articleClicked;
   final double height;
   ArticleListItem({
     required this.article,
@@ -14,7 +14,7 @@ class ArticleListItem extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () => articleClicked(
-        article.id,
+        article,
       ),
       child: Card(
         child: Container(

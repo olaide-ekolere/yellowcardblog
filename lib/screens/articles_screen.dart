@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yellowcardblog/bloc/articles_bloc.dart';
 import 'package:yellowcardblog/data/articles_datasource.dart';
+import 'package:yellowcardblog/models/article.dart';
 import 'package:yellowcardblog/widgets/articles_grid_view.dart';
 
 class ArticlesScreen extends StatefulWidget {
@@ -28,5 +29,5 @@ class _ArticlesScreenState extends State<ArticlesScreen> {
     );
   }
 
-  _articleSelected(String articleId) {}
+  _articleSelected(Article article) {}
 }

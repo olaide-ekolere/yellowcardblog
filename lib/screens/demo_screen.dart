@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:yellowcardblog/data/articles_datasource.dart';
 import 'package:yellowcardblog/data/categories_datasource.dart';
+import 'package:yellowcardblog/models/article.dart';
 import 'package:yellowcardblog/screens/articles_screen.dart';
 import 'package:yellowcardblog/screens/categories_screen.dart';
 import 'package:yellowcardblog/screens/home_full_screen.dart';
@@ -82,6 +83,7 @@ class _DemoScreenState extends State<DemoScreen> {
             builder: (_) => HomeFullScreen(
               categoriesDataSource: widget.categoriesDataSource,
               articlesDataSource: widget.articlesDataSource,
+              articleClicked: _articleClicked,
             ),
           ),
         );
@@ -92,6 +94,7 @@ class _DemoScreenState extends State<DemoScreen> {
             builder: (_) => HomeNavigationScreen(
               categoriesDataSource: widget.categoriesDataSource,
               articlesDataSource: widget.articlesDataSource,
+              articleClicked: _articleClicked,
             ),
           ),
         );
@@ -102,10 +105,13 @@ class _DemoScreenState extends State<DemoScreen> {
             builder: (_) => HomeResponsiveScreen(
               categoriesDataSource: widget.categoriesDataSource,
               articlesDataSource: widget.articlesDataSource,
+              articleClicked: _articleClicked,
             ),
           ),
         );
         break;
     }
   }
+
+  _articleClicked(Article article) {}
 }

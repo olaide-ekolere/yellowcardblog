@@ -6,7 +6,7 @@ import 'package:yellowcardblog/widgets/common/responsive_widget.dart';
 
 class ArticlesGridView extends StatefulWidget {
   final ArticlesBloc articlesBloc;
-  final Function(String) articleSelected;
+  final Function(Article) articleSelected;
   final String categoryId;
   ArticlesGridView({
     required this.articlesBloc,
