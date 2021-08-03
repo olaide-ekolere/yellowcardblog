@@ -1,0 +1,150 @@
+{
+    "categories" : [
+        {
+            "id" : "0",
+            "name" : "All"
+        },
+        {
+            "id" : "1001",
+            "name" : "Crypto Scoop"
+        },
+        {
+            "id" : "1002",
+            "name" : "Insights"
+        },
+        {
+            "id" : "1003",
+            "name" : "Updates"
+        }
+    ],
+    "articles" : [
+        {
+            "id" : "100001",
+            "title" : "How To Store Your Crypto With Yellow Card",
+            "text" : "Storing your Crypto asset is the first thing to consider when purchasing any Cryptocurrency asset of your choice. Consider going to the bank to deposit money without having a bank account. The same goes for crypto assets. For you to be able to store your Cryptocurrency asset, you need a wallet. A wallet replaces a bank for digital assets. It enables users to be their bank by being a protective custodian of their crypto assets.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/8b591b45-b06d-4dde-a31a-0b3e8eeb42ff_Wallet.jpg",
+            "publishDate" : "2021-02-22",
+            "categoryId" : "1003"
+        },
+        {
+            "id" : "100002",
+            "title" : "How To Make Money With Bitcoin",
+            "text" : "How do you make money with bitcoin? Because it is not enough to know that you are not too late to buy bitcoin; you also need to know how to use it to your advantage. Bitcoin is more than just a global currency used as a means of exchange. Because of its increasing value and worth, it is also traded in pairs with both fiat currencies and other cryptocurrencies. Beyond that, some bitcoin users choose to hodl bitcoin as a means to make more profit over time because they believe that they can make more money with bitcoin that way. And if you are in South Africa, it is as easy for you to earn with bitcoin as it is for you anywhere else in the world. In this post, we will consider 2 common ways you can make money with bitcoin in South Africa.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/d31fc2b5-a3ae-4765-8b95-7c0a06591242_BLOG+How+to+Save+with+bitcoin+in+South+Africa.png",
+            "publishDate" : "2021-04-28",
+            "categoryId" : "1002"
+        },
+        {
+            "id" : "100003",
+            "title" : "Crypto Scoop: Bitcoin And Dogecoin Plummet",
+            "text" : "Just two weeks ago, Morgan Stanley launched a new bitcoin product that has since then attracted 322 investors with an investment of $29.4 million. The investment turnover suggests that investors are keen on bitcoin products and seek to actively participate in its projects as bitcoin adoption increases. The bitcoin fund was one of the two bitcoin funds the bank launched, managed by FS investors, and stored in the NYDIG service. According to Morgan Stanley's policies, clients who wish to invest in this project must own at least $2million and cannot invest more than 2.5% of their total wealth. The bank notes that it is ready to offer more cryptocurrencies services if interest in its products persists.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/1740f668-266c-485b-9bdd-03784c4327e8_CRYPTO+SCOOP+LIGHT+1140X600.png",
+            "publishDate" : "2021-04-23",
+            "categoryId" : "1001"
+        },
+        {
+            "id" : "100004",
+            "title" : "Is It Too Late To Buy Bitcoin?",
+            "text" : "It’s 2021 and one thing you’ve heard over and again almost every day of the week is how bitcoin is breaking its own records and setting new all-time highs. Almost every day! But you are one of those that exercise caution when it comes to what you put your money into -- and rightly so! Because scams have so pervaded the digital world today that if you’re not careful, you could lose all your money in the blink of an eye. Yet, here you are unable to shake the feeling that there just might be something different about bitcoin. And, of course, you’re right; bitcoin, as many have put it, is the digital gold and the money of the future. So, here comes the question at the back of your mind - is it too late to buy bitcoin? Let’s add some context. Bitcoin was created just over a decade ago in 2009 and it was worth next to nothing then mainly because many people had no idea what it was. Fast forward to 2020, bitcoin experienced an extraordinary kind of growth. This growth saw it leap from about US$3,850 in March 2020 to over US$29,000 at the end of the year. That means if you had invested $100 into bitcoin in March 2020, it would be worth about $750 by the end of that year. That’s over 650% increase in less than 12 months. Now, you understand the importance of the question “is it too late to buy bitcoin?”. But don’t be dismayed just yet and conclude that you’re late to the party. While it is apparent that the value of bitcoin has seen massive gains lately, it is vital to understand why the price of bitcoin is on the rise. That way, you can know what to expect, if it is indeed too late to buy bitcoin and, if it isn’t, when to buy bitcoin.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/9153adac-d5da-4929-86de-54f850529f93_Is+it+too+late+to+buy+bitcoin+%281%29.png",
+            "publishDate" : "2021-04-20",
+            "categoryId" : "1002"
+        },
+        {
+            "id" : "100005",
+            "title" : "BTC/ZAR Trading Competition",
+            "text" : "Yellow Card reserves the right at any time and from time to time to modify or discontinue, temporarily or permanently, this contest with or without prior notice due to any reason, including, without limitation, in the case of anticipated, suspected or actual fraud, or where it considers it necessary to do so. Our decision in this instance is final and binding and no correspondence will be entered into. Yellow Card shall not be liable for any failure to comply with its obligations where the failure is caused by something beyond its reasonable control. This contest will be governed by the Laws of the Republic of South Africa and Entrants to the contest submit to the exclusive jurisdiction of the South African courts.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/d6ad05ad-aeca-478e-9679-fd914e0f9d29_Blog+Preview+Image+-+470+x+316px+Trade+BTC+ZAR+%281%29.png",
+            "publishDate" : "2021-04-19",
+            "categoryId" : "1003"
+        },
+        {
+            "id" : "100006",
+            "title" : "Crypto Scoop: BTC, Alts Reach New ATHs, AXA To Accept Bitcoin",
+            "text" : "Dogecoin's market cap soared over 80% during the week, bringing it to about $33.32 billion. The popular meme currency experienced a surge in sales, trading about $0.26, a whopping 88% increase from its initial price. This new surge in its sales has earned its position as the tenth-largest crypto in market cap. Yet, this surge in sales and value could reflect its continuous endorsements by celebrities like Elon Musk, Gene Simmons, and Snoop Dog, among other notable celebrities.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/396ffae7-6714-44e1-a36b-af79dc158c84_CRYPTO+SCOOP+DARK+1140X600.png",
+            "publishDate" : "2021-04-16",
+            "categoryId" : "1001"
+        },
+        {
+            "id" : "100007",
+            "title" : "Yellow Card Snap N Share Contest",
+            "text" : "TERMS AND CONDITIONS Yellow Card SNAP N SHARE Contest is organised by Yellow Card Financial South Africa (Pty) Limited, a crypto-asset exchange platform operating in South Africa with affiliated entities registered and trading in over 10 African Countries. The SNAP N SHARE Contest is open to Entrants over 18 years of age and resident in South Africa. By entering the contest, you confirm that you are eligible to do so and eligible to claim the prize you may win. Yellow Card reserves all rights to disqualify you if your conduct is contrary to the terms and conditions or purpose of the contest.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/fe84f389-5161-4576-ad26-c3356e8ea49b_Snap+n+share.jpg",
+            "publishDate" : "2021-03-10",
+            "categoryId" : "1003"
+        },
+        {
+            "id" : "100008",
+            "title" : "How To Use A Bitcoin Wallet",
+            "text" : "A Bitcoin wallet is a software or hardware device that is used to store Bitcoins. Bitcoin wallets are usually encrypted with private and public keys that ensure that the Bitcoins stored in the wallet are only accessible to the owner of the wallet. Beyond storing Bitcoins, a Bitcoin wallet also lets its owner send and receive Bitcoin from other wallets securely. Getting a bitcoin wallet is simple. The first thing  you will need is to create a Yellow Card account. Once you have an account created, you are ready to go. Let’s walk you through on why you need one, how to send & receive bitcoins and how you can keep your wallet safe.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/63c47480-5978-4063-9bbd-3b4b58338307_bitcoin+wallet.jpeg",
+            "publishDate" : "2021-02-15",
+            "categoryId" : "1002"
+        },
+        {
+            "id" : "100009",
+            "title" : "Why Ethereum May Outperform Bitcoin In 2021",
+            "text" : "The massive boom in cryptocurrency has seen the total market cap of all cryptocurrencies rise above the $1 trillion in 2021. Bitcoin and Ethereum represent half of the total market cap with $696,532,174,239 and $189,263,466,596 respectively. This increase in market cap has resulted in a surge in Bitcoin and Ethereum prices in today's market. Crypto traders aren't surprised by this price increase, though, because an increase in the market cap of an asset divided by the total supply of that asset will result in the price increase of that asset. This year has seen bitcoin hit an all-time high of $41,973, climbing 40%. Ethereum has also made great strides in 2021 with a current all-time high of $1,760.49 which it reached on Friday, 5th of February. Both cryptocurrency assets have done really well so far this year. This has brought forward once again a frequent comparison between both cryptos to determine which assets will perform better in 2021.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/17962a43-6fcc-4b9d-b292-c70099823eea_ETH+vs+BTC.jpeg",
+            "publishDate" : "2021-02-08",
+            "categoryId" : "1002"
+        },
+        {
+            "id" : "100010",
+            "title" : "The Future Of Blockchain Technology In Africa",
+            "text" : "The emergence and adoption of blockchain technology over the years have sparked much interest in what promises lies within the notable invention. Cryptocurrencies are well-known as the poster child of this revolutionary invention. Truly, blockchain technology is the bedrock of many cryptocurrencies and holds significant potential that a continent like Africa can harness. There are, however, a lot of non-crypto related aspects where Blockchain can equally be effective. In these other sectors, blockchain technology can drive change, create employment opportunities and set Africa on a revolutionary leap. But what is Blockchain, and what does its existence mean for Africa?",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/f7f94a9a-af87-473e-bf15-0b3c4d37a5b0_blockchain+africa.jpeg",
+            "publishDate" : "2021-02-01",
+            "categoryId" : "1002"
+        },
+        {
+            "id" : "100011",
+            "title" : "How To Make Money From Yellow Card Referral Program",
+            "text" : "When a friend signs up with your code and they buy or sell you get 20% of the fees paid. You can view all your earnings on the Referral page. There you can see the total amount earned from referrals, the number of referrals you have, and a breakdown of each payout from a referral. Your referral bonus is automatically added to your Yellow Credit balance, so no waiting for your earnings. There is no limit to how much you can earn through referrals; the more people you refer and the more transactions they make, the more money you earn - for life! Share your referral code today and see how much you can earn! Remember, you only start earning when the person you refer buys or sells on Yellow Card. ",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/46584516-0965-4fc9-9703-a7085a1966c3_refer+n+earn.jpeg",
+            "publishDate" : "2021-01-15",
+            "categoryId" : "1003"
+        },
+        {
+            "id" : "100012",
+            "title" : "5 DeFi Projects Making Waves In 2021",
+            "text" : "Decentralised Finance - codename DeFi, is basically an upgrade of traditional finance. It is a general term for financial services in cryptocurrency using smart contracts to eliminate the need for intermediaries like banks. DeFi, like Bitcoin, is built on the blockchain network, the technology that allows multiple entities to hold copies of transactions so that it is not controlled by a single authority. This provides easier access to financial services and gives users full control over their money. Most DeFi applications are powered by Ethereum, the second-largest cryptocurrency platform in the world. Unlike traditional finance that require financial institutions like banks to act as middlemen, DeFi applications do not need intermediaries, the code deployed on blockchain specifies the resolution for every dispute and eliminates single points of failure. Now that you know more about DeFi, here are the hottest projects to look out for in 2021.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/a329cd4c-be4c-4aa8-9fac-a2913977d45f_DeFi.jpeg",
+            "publishDate" : "2021-01-27",
+            "categoryId" : "1002"
+        },
+        {
+            "id" : "100013",
+            "title" : "3 Effective Active Trading Strategies For Crypto Traders",
+            "text" : "Trading cryptocurrency comes with several trading styles. Although there are different trading styles, cryptocurrency trading involves speculating on price movement. And the strategy you choose should reflect the result you aim to achieve. While a strategy may demand a quick move during the day, others may demand trading the current range or holding a position for a few days or more. There are several trading styles that have been implemented over the years, that suit the trader’s need, risk tolerance and level. But in this post, we will explain 3 crypto trading styles that you can easily implement and utilise them effectively. What is a trading strategy? A trading strategy is a method or technique designed to help a trader make a profit from buying and selling of crypto assets. There are various trading strategies and each strategy will depend on the trader and his preference. For a new trader, it is important to discover properly determine and outline, your aim from trading, your risk tolerance,  - basically, your trading personality. Keeping this in mind as you begging to trade will help you easily know what style of trading fits your aim. This, however, does not mean that you have to stick only to one trading strategy. The important thing is to understand whatever strategy you want to use and how it helps you meet your trading goals.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/e1b7973d-50e0-4d0e-b62b-5834cead989a_crypto+trading.jpeg",
+            "publishDate" : "2021-01-18",
+            "categoryId" : "1002"
+        },
+        {
+            "id" : "100014",
+            "title" : "Yellow Card Launches VIP Program",
+            "text" : "2020 was an amazing year for us at Yellow Card! We successfully launched operations in Cameroon and Kenya. This year we already launched operations in Zambia, Uganda and Ghana. And to top it, our new platform - the Webapp 2.0 - is finally live! Yes, we’ve been very busy. And while we’ve been expanding to bring financial freedom to other countries in Africa and giving you a seamless trading experience, we did not forget our loyal customers who have kept using our platform. This is why we launched our latest loyalty program. The Yellow Card VIP Program is live.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/f6e4ce56-a2cd-4f02-b319-8a72a47595c5_vip+program.jpeg",
+            "publishDate" : "2021-01-11",
+            "categoryId" : "1003"
+        },
+        {
+            "id" : "100015",
+            "title" : "Introducing The New Yellow Card",
+            "text" : "We’ve got great news! After months of tireless work on the new Yellow Card platform- we are excited to announce that it’s finally ready. One of the main focuses of our team has always been to make sure you, our valued customer, find using our platform as easy as possible. And as requests were made about what features would be cool to have on Yellow Card, you can rest assured that we heard every one of those requests. The new Yellow Card platform has been painstakingly designed to make all your cryptocurrency transactions easier, more secure and faster. Here, we’ll walk you through everything new in the Yellow Card app",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/2ce9d208-7924-49b5-9401-febf0b3d5f93_version+release.jpeg",
+            "publishDate" : "2021-01-11",
+            "categoryId" : "1003"
+        },
+        {
+            "id" : "100016",
+            "title" : "Year In Retrospect: Bitcoin And Crypto Journey (2020)",
+            "text" : "It would be an understatement to say that 2020 has been a remarkable year for all crypto lovers and bitcoin hodlers. The year started on a good note and is ending on an even higher note! For us at Yellow Card, we’ve experienced massive growth all round - from the number of active customers to the volume of crypto transactions we processed to the countries we now operate in and even to the number of members on our team. It’s really been a very interesting year despite the many occurrences we all know so well. Looking back on the exciting ride 2020 has been and looking forward to a better 2021, here’s a rundown of the milestones we hit in the cryptocurrency world this year.",
+            "imageUrl" : "https://images.prismic.io/yellowcard-website/30bdb31a-730f-4e5e-9fde-997e208eedca_crypto+2020+retrospect.jpeg",
+            "publishDate" : "2020-12-31",
+            "categoryId" : "1001"
+        }
+    ]
+}
